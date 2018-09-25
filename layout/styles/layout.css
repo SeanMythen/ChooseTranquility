@@ -283,7 +283,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#A3C9D3;}
 
 
 /* Navigation */
-#mainav li a{color:inherit; font-size: 1.15em;}
+#mainav li a{color:white; font-size: 1.15em;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#A3C9D3; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#A3C9D3;}
