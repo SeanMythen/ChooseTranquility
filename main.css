@@ -95,7 +95,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   align-content: center;
   width: 70vw;
   margin: 0px auto 20px auto;
