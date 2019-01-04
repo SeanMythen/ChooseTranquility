@@ -1,3 +1,6 @@
 # choosetranquility.github.io
 
-[I'm an inline-style link](https://www.google.com)
+Developed by Sean Mythen
+[Github](https://github.com/SeanMythen)
+[Codepen](https://codepen.io/seanmythen/pens/public/)
+[Website](https://seanmythen.net/)
