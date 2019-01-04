@@ -312,7 +312,7 @@ footer > a:hover {
   }
 }
 
-@media all and (max-width: 330px) {
+@media all and (max-width: 345px) {
   .navigation-link {
     margin: 0px 10px 0px 10px;
   }
