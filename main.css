@@ -33,15 +33,15 @@ html {
 }
 
 a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   white-space: nowrap;
   outline: none;
-  -webkit-tap-highlight-color: transparent;  
+  -webkit-tap-highlight-color: transparent;
+  transition: color 1s ease;  
 }
 
 nav > a:hover {
-  transition: color 1s ease;
   color: #51b1dd;
 }
 
@@ -188,11 +188,11 @@ footer {
 footer > a {
   color: black;
   font-size: 16px;
+  transition: color 0.5s ease;
   
 }
 
 footer > a:hover {
-  transition: color 0.5s ease;
   color: #1e79a3;
 }
 
