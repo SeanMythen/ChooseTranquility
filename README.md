@@ -1,4 +1,4 @@
-# choosetranquility.github.io
+# choosetranquility.com
 
 Developed by [Sean Mythen](https://seanmythen.net/)
 
