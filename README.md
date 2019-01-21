@@ -1,4 +1,4 @@
-# choosetranquility.com
+# ChooseTranquility.com
 
 Developed by [Sean Mythen](https://seanmythen.net/)
 
