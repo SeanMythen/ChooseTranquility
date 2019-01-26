@@ -237,6 +237,16 @@ footer > a:hover {
   margin-bottom: 5px;
 }
 
+.preload * {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+
+
 @media all and (max-width: 900px) {
   #about-body {
     flex-direction: column-reverse;
@@ -323,3 +333,5 @@ footer > a:hover {
     font-size: 6.5vw;
   }
 }
+
+
