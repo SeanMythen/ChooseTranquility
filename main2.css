@@ -454,8 +454,9 @@ form{
 
 
   #welcomeMessage{
+    font-family: 'Libre Baskerville', serif;
     font-size: 37px;
-    font-weight: 600;
+    font-weight: 500;
 
   }
 
