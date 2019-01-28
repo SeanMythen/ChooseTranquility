@@ -231,9 +231,12 @@ form{
     }
 
     #button:focus {
-      top: 2px;
       outline: none;
   }
+
+  #button:active {
+    top: 2px;
+}
 
 
   #faq{

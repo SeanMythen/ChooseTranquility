@@ -127,8 +127,8 @@
             <script>
                 var submitted = !1
             </script>
-            <iframe id=hidden_iframe name=hidden_iframe onload='submitted&&(window.location="#faq")' style=display:none></iframe>
-            <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeeHFvpQqMHQOGYIDJ7Ioo9MRuJZCrZl7jCSjAZdgQEHFBrMQ/formResponse" method=post onsubmit="submitted=!0" target=hidden_iframe>
+            <!-- <iframe id=hidden_iframe name=hidden_iframe onload='submitted&&(window.location="#contact")' style=display:none></iframe> -->
+            <form id="fullForm" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeeHFvpQqMHQOGYIDJ7Ioo9MRuJZCrZl7jCSjAZdgQEHFBrMQ/formResponse" method=post onsubmit="submitted=!0 && submitClear()" target=hidden_iframe>
                 
                 
                 <div class="formTitle">Your Name *</div>

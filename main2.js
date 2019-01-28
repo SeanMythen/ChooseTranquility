@@ -38,3 +38,36 @@ function myFunction() {
     faq.style.color=('white') 
   }
 }
+
+let firstName = document.getElementById("firstName");
+let lastName = document.getElementById("lastName");
+let email = document.getElementById("email");
+let phone = document.getElementById("phone");
+let message = document.getElementById("message");
+
+let form = document.getElementById('fullForm')
+
+let button = document.getElementById('button');
+
+
+
+
+function submitClear() {
+
+ setTimeout(function(){
+  firstName.value = ("")
+  lastName.value = ("")
+  email.value = ("")
+  phone.value = ("")
+  message.value = ("")
+  button.value = "Thank you!";
+ }, 2500)
+
+ setTimeout(function(){
+  button.value = "Send";
+ }, 15000)
+
+ 
+
+}
+
