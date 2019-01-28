@@ -446,6 +446,10 @@ form{
 
   #testimonials{
     padding-bottom: 50px;
+    background: url(images2/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 
