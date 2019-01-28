@@ -457,14 +457,26 @@ form{
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  min-height: 170px;
   }
 
 
-  #testArrow{
+  #ArrowRight{
     font-size: 30px;
     position: absolute;
-    right: -160px;
-    top: -50px;
+    right: -100px;
+    top: 10%;
+    border: 0px;
+    cursor: pointer;
+  }
+
+  #ArrowLeft{
+    font-size: 30px;
+    position: absolute;
+    left: -100px;
+    top: 10%;
+    border: 0px;
+    cursor: pointer;
   }
   
 
