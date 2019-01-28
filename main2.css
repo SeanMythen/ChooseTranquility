@@ -453,15 +453,23 @@ form{
   }
 
 
+  #welcomeMessage{
+    font-size: 37px;
+    font-weight: 600;
+
+  }
+
+
   #testimonialText{
   position: relative;
   font-family: 'Raleway', sans-serif;
-  line-height: 20px;
+  line-height: 22px;
   text-align: center;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 170px;
+  /* min-height: 200px; */
+  font-size: 17px;
   }
 
 
