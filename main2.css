@@ -450,6 +450,7 @@ form{
 
 
   #testimonialText{
+  position: relative;
   font-family: 'Raleway', sans-serif;
   line-height: 20px;
   text-align: center;
@@ -458,16 +459,14 @@ form{
   margin-right: auto;
   }
 
-#testimonialsTitleContainer{
-  position: relative;
-}
 
-  /* #testArrow{
+  #testArrow{
+    font-size: 50px;
     position: absolute;
-    right: 550px;
+    right: -20px;
     top: 75px;
   }
-   */
+  
 
 
 
