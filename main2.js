@@ -30,12 +30,11 @@ function myFunction() {
 
   } else {
     navbar.classList.remove("sticky") 
-    navbar.style.background=('url(images2/hero.png)')
+    navbar.style.background=('url(images2/hero.jpg)')
     navbar.style.backgroundAttachment=('fixed')
     navbar.style.backgroundSize=('cover')
     home.style.color=('white') 
     contact.style.color=('white') 
     faq.style.color=('white') 
-
   }
 }
