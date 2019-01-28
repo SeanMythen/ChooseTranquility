@@ -101,10 +101,11 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 80px;    
+    margin-top: 50px;    
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
   }
 
   #homeText{
@@ -114,24 +115,29 @@ html {
     justify-self: center;
     line-height: 30px;
     font-size: 20px;
+    
   }
 
   #homeImage{
-    max-width: 25%;
+    max-width: 28%;
     border-radius: 15px;
     align-self: center;
   }
 
-
+#about{
+  background-color: rgb(247, 247, 247);
+}
 
   #aboutBodyContainer{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40px;   
+    margin-top: 50px;   
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 
   }
 
@@ -142,22 +148,27 @@ html {
     justify-self: center;
     line-height: 30px;
     font-size: 20px;
+    
   }
 
   #aboutImage{
-    max-width: 25%;
+    max-width: 28%;
     border-radius: 15px;
     align-self: center;
   }
 
 #contact, textarea {
   font-family: 'Raleway', sans-serif;
-  margin-top: 40px;
 }
 
 #contact{
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(247, 247, 247);
 }
+
+#faq{
+  
+}
+
 
 #faqTitle{
   margin-bottom: 30px;
@@ -169,7 +180,7 @@ form{
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 
@@ -238,11 +249,11 @@ form{
     top: 2px;
 }
 
-
-  #faq{
+  .faq-container{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
   }
 
 
@@ -298,7 +309,9 @@ form{
 
   }
   
-
+/* #home{
+  background-color: rgb(247, 247, 247);
+} */
   
   #mainText {
     display: flex;
@@ -354,9 +367,11 @@ form{
   }
   
   footer {
+    font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
-    margin: 17px 0;
+    padding: 17px 0;
+    background-color: rgb(247, 247, 247);
   }
   
   #emailFooter {
@@ -407,7 +422,7 @@ form{
     border: 1px solid #d7d7d7;
     padding: 30px;
     margin-top: 17px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 22px;
   }
@@ -415,7 +430,7 @@ form{
   .faq-title {
     font-size: 22px;
     font-weight: bold;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 5px;
   }
   
@@ -426,9 +441,33 @@ form{
     -ms-transition: none !important;
     -o-transition: none !important;
   }
+
   
-  
-  
+
+  #testimonials{
+    padding-bottom: 50px;
+  }
+
+
+  #testimonialText{
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#testimonialsTitleContainer{
+  position: relative;
+}
+
+  /* #testArrow{
+    position: absolute;
+    right: 550px;
+    top: 75px;
+  }
+   */
 
 
 
