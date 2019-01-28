@@ -103,4 +103,4 @@ window.onload = setInterval(function(){
     count = 1;
   }
   console.log(count)
-}, 2000);
+}, 20000);
