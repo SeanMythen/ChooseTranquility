@@ -96,7 +96,7 @@ let testimonials = {
   4: `The massage I received from Sonia was a truly eye opening experience! Or should I say eye closing. This was one of the most relaxing massages I've ever received. It's been a long time since I experienced that much serenity and peace. The rhytmic sounds from the bowls and the deep yet gentle vibrations eased me into a light sleep and I woke up feeling calmer and rested, ready to take on the rest of my day! Thank you Sonia for this experience. <br><br>- Amanda M`,
 }
 
-window.onload = setTimeout(function(){
+window.onload = setInterval(function(){
   testimonialText.innerHTML = (testimonials[count])
   count++;
   if (count == 5) {
