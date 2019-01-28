@@ -461,7 +461,7 @@ form{
   }
 
 
-  #ArrowRight{
+  #arrowRight{
     font-size: 30px;
     position: absolute;
     right: -100px;
@@ -470,7 +470,7 @@ form{
     cursor: pointer;
   }
 
-  #ArrowLeft{
+  #arrowLeft{
     font-size: 30px;
     position: absolute;
     left: -100px;
