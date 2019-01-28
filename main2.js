@@ -26,7 +26,7 @@ function myFunction() {
     navbar.style.background=('rgba(255, 255, 255, 1)')   
     home.style.color=('black') 
     contact.style.color=('black') 
-    // faq.style.color=('black') 
+    faq.style.color=('black') 
 
   } else {
     navbar.classList.remove("sticky") 
@@ -35,7 +35,7 @@ function myFunction() {
     navbar.style.backgroundSize=('cover')
     home.style.color=('white') 
     contact.style.color=('white') 
-    // faq.style.color=('white') 
+    faq.style.color=('white') 
 
   }
 }
