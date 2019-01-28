@@ -231,8 +231,8 @@ form{
     font-size: 25px;
     padding: 5px;
     border-radius: 3px;
-    min-width: 50%;
-    max-width: 50%;
+    min-width: 30%;
+    max-width: 30%;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
