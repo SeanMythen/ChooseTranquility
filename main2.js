@@ -91,6 +91,7 @@ rightArrow.addEventListener('click', function () {
     count = 1;
   }
   testimonialText.innerHTML = (testimonials[count])
+
 })
 
 

@@ -85,6 +85,7 @@ html {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 50px;
+    text-align: center;
   }
 
   h2 {
@@ -452,8 +453,12 @@ form{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
   }
 
+  #justText{
+    opacity: 1;
+  }
 
   #welcomeMessage{
     font-family: 'Libre Baskerville', serif;
