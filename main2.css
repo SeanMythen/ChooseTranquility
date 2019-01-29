@@ -39,6 +39,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    cursor: default;
   }
 
   .sticky {
@@ -305,6 +306,7 @@ form{
     border-bottom: 3px solid black;
     border-radius: 7px;
     max-width: 30%;
+    cursor: default;
 
 
   }
@@ -471,6 +473,7 @@ form{
   margin-right: auto;
   /* min-height: 200px; */
   font-size: 17px;
+  cursor: default;
   }
 
 

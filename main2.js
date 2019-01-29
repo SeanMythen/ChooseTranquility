@@ -91,9 +91,6 @@ rightArrow.addEventListener('click', function () {
     count = 1;
   }
   testimonialText.innerHTML = (testimonials[count])
-  
- 
-  
 })
 
 
@@ -120,15 +117,18 @@ let testimonials = {
 }
 
 
-window.onload = function(){
+window.onload = function () {
   testimonialText.innerHTML = (testimonials[count])
+  count++;
+  if (count == 8) {
+    count = 1;
+  }
+  setInterval(function () {    
+    count++;
+    if (count == 8) {
+      count = 1;
+    }
+    testimonialText.innerHTML = (testimonials[count])
+    console.log(count)
+  }, 20000);
 }
-
-// window.onload = setInterval(function(){
-//   testimonialText.innerHTML = (testimonials[count])
-//   count++;
-//   if (count == 5) {
-//     count = 1;
-//   }
-//   console.log(count)
-// }, 200000);
