@@ -75,7 +75,7 @@ function submitClear() {
 }
 
 
-let count = Math.floor(Math.random() * 7) + 1;
+let count = Math.floor(Math.random() * 8) + 1;
 
 
 let testimonialText = document.getElementById('justText');
@@ -87,10 +87,14 @@ let leftArrow = document.getElementById('arrowLeft');
 rightArrow.addEventListener('click', function () {
   count++;
   console.log(count)
-  if (count == 8) {
+  if (count == 9) {
     count = 1;
+    testimonialText.innerHTML = (testimonials[count]);
   }
-  testimonialText.innerHTML = (testimonials[count])
+  else{
+    testimonialText.innerHTML = (testimonials[count]);
+  }
+  
 
 })
 
@@ -99,9 +103,13 @@ leftArrow.addEventListener('click', function () {
   count--;
   console.log(count)
   if (count == 0) {
-    count = 7;
+    count = 8;
+    testimonialText.innerHTML = (testimonials[count]);
   }
-  testimonialText.innerHTML = (testimonials[count])  
+  else{
+    testimonialText.innerHTML = (testimonials[count]);
+  }
+  
   
   
 })
@@ -114,22 +122,22 @@ let testimonials = {
   4: `The massage I received from Sonia was a truly eye opening experience! Or should I say eye closing. This was one of the most relaxing massages I've ever received. It's been a long time since I experienced that much serenity and peace. The rhythmic sounds from the bowls and the deep yet gentle vibrations eased me into a light sleep and I woke up feeling calmer and rested, ready to take on the rest of my day! Thank you Sonia for this experience. <br><br>- Amanda M.`,
   5: `Sonia has a down to earth, grounding presence which makes relaxation easy. <br><br>- Angelica O.`,
   6: `What a wonderful, relaxing experience! As relaxing as, if not more so than, a traditional massage.  Without the hassles of undressing, being covered in oil and being sore the next day. I was not familiar with Vibrational Sound Therapy prior to my session with Sonia but I am so glad I gave it a try. Sonia is professional, very informative on how Vibrational Sound Therapy works and made me feel very comfortable. I will definitely be back for more sessions. Well worth it!!!! <br><br>- Anita M.`,
-  7: `Sonia is very patient and accommodating. She adjusted yoga poses for me, due to my bad knees. <br><br>- Bea O.`
+  7: `Sonia is very patient and accommodating. She adjusted yoga poses for me, due to my bad knees. <br><br>- Bea O.`,
+  8: `I am not the alternative health believer kind of person. So, with skepticism and resistance I had a vibrational sound therapy with Sonia. Part of me wanted to proof that it is all a sham. I was ready to rumble but Sonia was so patient and kind that if I continued with my plan, I was just going to be a jerk. And jerk I am not, but I kept thinking of all the work I had to do and how much longer I needed to be laying there being a guinea pig. Sonia somehow brought my defenses down and with her soft voice explained everything along the way. At the beginning the bowl on your body feels kind of awkward but once you adapt to its weight, the sensation of the vibrations penetrating your body are soothing. So, crap… this actually feels good. I went through the day without giving it too much thought. However, the overwhelming stress that I get when I have so much to do was not there. As such, space opened up in my mind for clarity, calmness and intention. Not bad eh… Take my review for what it’s worth, but if you are overwhelmed, overworked, blocked mentally, and/or scattered this thing might actually help you. <br><br>- Maritza C.`
 }
 
 
 window.onload = function () {
   testimonialText.innerHTML = (testimonials[count])
-  count++;
-  if (count == 8) {
+  if (count == 9) {
     count = 1;
   }
   setInterval(function () {    
     count++;
-    if (count == 8) {
+    if (count == 9) {
       count = 1;
     }
     testimonialText.innerHTML = (testimonials[count])
     console.log(count)
-  }, 20000);
+  }, 30000);
 }
