@@ -50,8 +50,12 @@ let message = document.getElementById("message");
 
 let form = document.getElementById('fullForm')
 
-let button = document.getElementById('button');
+let FormSubmitButton = document.getElementById('FormSubmitButton');
 
+let captchaCheckbox = document.querySelectorAll('.g-recaptcha-response');
+
+
+// captchaCheckbox.addEventListener('click', enableSubmitButton())
 
 
 
@@ -63,12 +67,12 @@ function submitClear() {
   email.value = ("")
   phone.value = ("")
   message.value = ("")
-  button.value = "Thank you!";
+  FormSubmitButton.value = "Thank you!";
  }, 2500)
 
  setTimeout(function(){
-  button.value = "Send";
- }, 15000)
+  FormSubmitButton.value = "Send";
+ }, 5000)
 
  
 
@@ -86,7 +90,7 @@ let leftArrow = document.getElementById('arrowLeft');
 
 rightArrow.addEventListener('click', function () {
   count++;
-  console.log(count)
+  // console.log(count)
   if (count == 9) {
     count = 1;
     testimonialText.innerHTML = (testimonials[count]);
@@ -101,7 +105,7 @@ rightArrow.addEventListener('click', function () {
 
 leftArrow.addEventListener('click', function () {
   count--;
-  console.log(count)
+  // console.log(count)
   if (count == 0) {
     count = 8;
     testimonialText.innerHTML = (testimonials[count]);
@@ -138,6 +142,30 @@ window.onload = function () {
       count = 1;
     }
     testimonialText.innerHTML = (testimonials[count])
-    console.log(count)
+    // console.log(count)
   }, 30000);
+}
+
+
+
+function recaptchaCallback(){
+  var response = grecaptcha.getResponse();
+  if (response.length === 0) { 
+      return false;
+  } else {
+      FormSubmitButton.style.display = "block"
+      
+      return true;
+  }
+}
+
+function makeSubmittableButton() {
+  var response = grecaptcha.getResponse();
+  if (response.length === 0) { 
+      return false;
+  } else {
+      FormSubmitButton.setAttribute("type", "submit")
+
+      return true;
+  }
 }

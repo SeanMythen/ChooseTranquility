@@ -92,6 +92,10 @@ html {
     text-align: center;
   }
 
+  input#FormSubmitButton {
+    text-align: center;
+}
+
   h2 {
     color: white;
     font-size: 30px;
@@ -203,7 +207,7 @@ form{
 
   }
 
-  #firstName, #lastName, #email, #phone, #message, #button, textarea{
+  #firstName, #lastName, #email, #phone, #message, #FormSubmitButton, textarea{
     font-family: 'Raleway', sans-serif;
     min-width: 100%;
     padding: 12px;
@@ -228,7 +232,7 @@ form{
     height: 90px;
   }
 
-  #button{
+  #FormSubmitButton{
     position: relative;
     border: 0px solid #ccc;
     font-size: 25px;
@@ -242,13 +246,14 @@ form{
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     cursor: pointer;
     z-index: 0;
+    display: none;
     }
 
-    #button:focus {
+    #FormSubmitButton:focus {
       outline: none;
   }
 
-  #button:active {
+  #FormSubmitButton:active {
     top: 2px;
 }
 

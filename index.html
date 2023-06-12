@@ -150,8 +150,9 @@
     
                 <div class="formTitle">Message *</div>
                 <textarea id="message" type="tel" name=entry.131332657 required placeholder="Your comment..."></textarea>
-                <div class="g-recaptcha" data-sitekey="6LdkgpAmAAAAAEFYOWu1qwZ5grhbuV_PE6JWuD2f"></div>
-                <input id="button" type=submit value=Send>
+                <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdkgpAmAAAAAEFYOWu1qwZ5grhbuV_PE6JWuD2f"></div>
+                <input id="FormSubmitButton" type=button value=Send onclick="makeSubmittableButton()">
+                <!-- <input id="button" type=submit value=Send> -->
             </form>
     
         </div>
