@@ -247,6 +247,8 @@ footer > a:hover {
 
 
 
+
+
 @media all and (max-width: 900px) {
   #about-body {
     flex-direction: column-reverse;

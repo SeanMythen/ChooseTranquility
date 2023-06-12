@@ -24,7 +24,11 @@ html {
   }
   
 
-
+  .g-recaptcha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
   
