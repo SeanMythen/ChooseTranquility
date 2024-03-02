@@ -160,12 +160,31 @@ function recaptchaCallback(){
 }
 
 function makeSubmittableButton() {
+
+  console.log('test')
   var response = grecaptcha.getResponse();
-  if (response.length === 0) { 
+  console.log(response)
+  
+  // Check for h o n e y p o t fields
+  let potFields = document.querySelectorAll('.ohnohoney');
+  let mainForm = document.getElementById('fullForm');
+  let isBad = false;
+
+  potFields.forEach(function(field) {
+    console.log(field.value)
+      if (field.value == undefined || field.value == "" || field.value == null) {
+        mainForm.setAttribute("action", "");
+        console.log('bad')
+      } else {
+        isBad = true;
+      }
+  });
+
+  if (response.length === 0 || isBad) { 
+      FormSubmitButton.setAttribute("type", "fake");
       return false;
   } else {
-      FormSubmitButton.setAttribute("type", "submit")
-
+      FormSubmitButton.setAttribute("type", "submit");
       return true;
   }
 }

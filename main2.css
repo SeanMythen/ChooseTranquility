@@ -392,6 +392,18 @@ form{
     text-decoration: underline;
     text-underline-offset: 3px;
   }
+
+  .announcement-banner{
+    background: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .announcement-banner  #phonenumber{
+    text-decoration: none;
+  }
   
   #phonenumber {
     margin-left: 15px;
@@ -520,6 +532,16 @@ form{
     border: 0px;
     cursor: pointer;
   }
+
+  .ohnohoney{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
   
   @media only screen and (max-width: 1350px) {
 
