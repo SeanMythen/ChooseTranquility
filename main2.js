@@ -173,9 +173,9 @@ function makeSubmittableButton() {
   potFields.forEach(function(field) {
     console.log(field.value)
       if (field.value == undefined || field.value == "" || field.value == null) {
-        mainForm.setAttribute("action", "");
-        console.log('bad')
+        console.log('good')
       } else {
+        mainForm.setAttribute("action", "");
         isBad = true;
       }
   });
