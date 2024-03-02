@@ -48,6 +48,9 @@
 <body id="body" class="preload">
 
     <div id="banner">
+        <div class="announcement-banner">
+            <p><a id="phonenumber" href="tel:520-261-6897">Call or Text (520)261-6897 to Schedule Your Appointment!</a></p>
+        </div>
         <div id='title'>
             <h1>Choose Tranquility</h1>
         </div>
@@ -151,6 +154,14 @@
                 <div class="formTitle">Message *</div>
                 <textarea id="message" type="tel" name=entry.131332657 required placeholder="Your comment..."></textarea>
                 <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdkgpAmAAAAAEFYOWu1qwZ5grhbuV_PE6JWuD2f"></div>
+
+
+                <!-- H o n e y p o t -->
+                <label class="ohnohoney" tabindex="-1" for="name"></label>
+                <input class="ohnohoney" tabindex="-1" autocomplete="off" type="text" id="name" name="name" placeholder="Your name here">
+                <label class="ohnohoney" tabindex="-1" for="email"></label>
+                <input class="ohnohoney" autocomplete="off" type="email" id="email" name="email" tabindex="-1" placeholder="Your e-mail here">
+
                 <input id="FormSubmitButton" type=button value=Send onclick="makeSubmittableButton()">
                 <!-- <input id="button" type=submit value=Send> -->
             </form>
